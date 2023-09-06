@@ -1,6 +1,6 @@
 ## Project-Lamp-Stack-Implementation
 
-#Introduction to Web Stack Implementation (LAMP Stack) on AWS
+**Introduction to Web Stack Implementation (LAMP Stack) on AWS**
 
 Building and deploying web applications in the cloud has become increasingly essential in today's digital landscape. Amazon Web Services (AWS) offers a robust and flexible platform for hosting web applications, and one of the most popular web stack configurations on AWS is the LAMP stack.
 
