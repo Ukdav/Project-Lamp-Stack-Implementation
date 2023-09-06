@@ -12,4 +12,16 @@ In this guide, we'll explore the key steps involved in implementing a LAMP stack
 
 Whether you're a developer looking to host your web application, a system administrator tasked with managing web infrastructure, or a business owner seeking to leverage AWS for your online presence, understanding how to implement a LAMP stack on AWS is a valuable skill that can help you harness the full potential of cloud computing for web development.
 
+**A LAMP Stack is a solution stack that is being used in deploying web applications. It stands for Linux, Apache, MySql, PHP, Perl or Python.**
+
+1. Linux: This is an operating system that serves as the backbone of the LAMP Stack, and it is actively used in deploying other components.
+
+2. Apache: is a web server software which via HTTP requests processes requests and transmits information via the internet.
+
+3. MySQL: used for creating and maintaining dynamic databases. It supports SQL and relational tables and provides a DBMS(Database Management System).
+
+4, PHP, PERL, or PYTHON: This represents programming languages that effectively combine all the elements of the LAMP stack and are used to make web applications execute.
+
+
+
 
