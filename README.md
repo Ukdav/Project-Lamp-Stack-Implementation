@@ -144,6 +144,14 @@ On successful installation of PHP and its modules, we can check the version to s
 
 ![php -v](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/c6ff9451-de5f-4d20-8ec0-3be930629f5f)
 
+## DEPLOYING OUR SITE ON APACHE'S VIRTUAL HOST
+
+We set up a virtual host using apache to enable us deploy our webcontent on the webserver. Apache's virtualhosting ensures that one or more websites can run on a webserver via different IP addresses.
+
+![11 apache_virtualhost_architecture](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/217e8f26-3c1b-43f0-80b5-5f373e04e757)
+
+
+
 
 
 
