@@ -94,6 +94,13 @@ When the instance is created, we have a default TCP rule on port 22 opened which
 
 ![inbound rules](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/e13cae9b-84fd-48cf-8870-5b1230bb9df9)
 
+To check the accessibility of our web server on the internet, we curl the IP address/DNS name of our localhost.
+
+curl http://127.0.0.1:80  or curl http://localhost:80
+
+![curl on localhost](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/b42bfbe5-f187-4a23-9a2b-16c296e9657b)
+
+
 
 
 
