@@ -146,9 +146,28 @@ On successful installation of PHP and its modules, we can check the version to s
 
 ## DEPLOYING OUR SITE ON APACHE'S VIRTUAL HOST
 
-We set up a virtual host using apache to enable us deploy our webcontent on the webserver. Apache's virtualhosting ensures that one or more websites can run on a webserver via different IP addresses.
+We set up a virtual host using Apache to enable us to deploy our web content on the webserver. Apache's virtual hosting ensures that one or more websites can run on a web server via different IP addresses.
 
 ![11 apache_virtualhost_architecture](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/217e8f26-3c1b-43f0-80b5-5f373e04e757)
+
+## CREATING WEB DOMAIN FOR OUR SITE 
+
+Apache webserver serves a website by way of server blocks inside its /var/www/ directory, and it can support multiple of these server blocks to host other websites.
+
+Here we create a new directory called projectlampstack inside the /var/www/ directory.
+
+*$ sudo mkdir /var/www/projectlamp*
+
+![sudo mkdir](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/5c947c9e-2bf3-43d1-aaba-fb540037abd7)
+
+Then we change permissions of the project lamp directory to the current user system.
+
+*$ sudo chown -R $USER:$USER /var/www/projectlamp*
+
+![sudo chown](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ef80ed8e-9fab-429f-a946-044fd1b84fe1)
+
+
+
 
 
 
