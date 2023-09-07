@@ -120,7 +120,38 @@ using the *$ sudo mysql*; This will connect to the MySql server as the administr
 
 Use the *$ sudo mysql_secure_installation* command to remove insecure default settings and enable protection for the database.
 
+when you are done, test if you are able to log into the **MySql** console by typing *$ sudo mysql -p*
+
+![sudo msql -p](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/e8e5636f-7d4e-44db-8d0a-7ad4d6e3fdbc)
+
+Note: The -p flag in this command, which will prompt you for the password used after changing the root user password.
+
 ![sudo mysql_secure_installation](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/68c4b7a0-1d52-4efc-9cc0-6ac01cc2412a)
+
+Exit from the MySQL terminal by typing exit.
+
+![exit](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/2ba0c3d9-9dab-4f7d-ae08-3cbfafc35a50)
+
+## INSTALLING PHP AND ITS MODULESPHP serves as a programming language that is useful for dynamically displaying the contents of the webpage to users who make requests to the web server.
+
+We need to install php alongside its modules, php-mysql which is a PHP module that allows PHP to communicate with the MySQL database, and libapache2-mod-php which ensures that the Apache web server handles the php contents properly.
+
+* $ sudo apt install php php-mysql libapache2-mod-php*
+
+![installing PHP](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ccfd77c6-a495-4180-b1ab-3eebdcb0d633)
+
+On successful installation of PHP and its modules, we can check the version to see if it was properly installed.
+
+![php -v](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/c6ff9451-de5f-4d20-8ec0-3be930629f5f)
+
+
+
+
+
+
+
+
+
 
 
 
