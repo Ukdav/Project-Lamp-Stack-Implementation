@@ -100,6 +100,13 @@ curl http://127.0.0.1:80  or curl http://localhost:80
 
 ![curl on localhost](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/b42bfbe5-f187-4a23-9a2b-16c296e9657b)
 
+To see if our web application server can respond to requests, use the public IP address of our instance on a web browser. 
+
+*http://16.170.148.177/:80*
+
+![apache2 server webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0711ebdf-dae7-419e-941f-992393e8e13e)
+
+
 
 
 
