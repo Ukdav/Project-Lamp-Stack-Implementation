@@ -106,6 +106,15 @@ To see if our web application server can respond to requests, use the public IP 
 
 ![apache2 server webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0711ebdf-dae7-419e-941f-992393e8e13e)
 
+## INSTALLING MYSQL
+
+MySQL on an Ubuntu Server is a popular relational database management system used for storing, managing, and retrieving structured data. Ubuntu provides a straightforward and well-supported environment for MySQL, making it a reliable choice for web applications, data-driven projects, and various software solutions. Administrators can easily install, configure, and maintain MySQL on Ubuntu Server using the package manager, and developers can leverage its powerful features and robust performance to build scalable and efficient database-driven applications. Additionally, the open-source nature of both Ubuntu and MySQL ensures cost-effectiveness and a vibrant community for support and updates.
+
+Install MySQL using the *$ sudo apt install mysql* command.
+
+![installing mysql server](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ef6df1f9-2a27-46a6-84f5-72d876235d1b)
+
+
 
 
 
