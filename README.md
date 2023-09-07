@@ -74,6 +74,9 @@ To verify that Apache2 is running is running as a service on our OS, you will us
 
 *$ sudo systemctl status apache2*
 
+![sudo apache2 status check](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/07790850-2d4f-4536-bb18-1f6e09120a8c)
+
+
 
 
 
