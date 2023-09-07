@@ -86,7 +86,7 @@ To verify that Apache2 is running as a service on our OS, you will use the follo
 
 If it shows a green text, it means the web server has been successfully spunned and is live.
 
-## Configuring SECURITY GROUP INBOUND RULES ON EC2 INSTANCE  
+## CONFIGURING SECURITY GROUP INBOUND RULES ON EC2 INSTANCE  
 
 Configuring Security Group Inbound Rules is a critical aspect of securing Amazon Elastic Compute Cloud (EC2) instances. Security Groups act as virtual firewalls that control inbound and outbound traffic to your EC2 instances.
 
