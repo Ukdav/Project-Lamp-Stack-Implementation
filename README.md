@@ -72,9 +72,19 @@ To deploy the web application, we need to install Apache via Ubuntu package mana
 
 To verify that Apache2 is running as a service on our OS, you will use the following command:
 
+# Starting apache2 Server
+
+*$ systemctl start apache2*
+
+# Ensuring Apache2 starts automatically on the system boot
+
+*$ systemctl enable apache2*
+
 *$ sudo systemctl status apache2*
 
 ![sudo apache2 status check](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/07790850-2d4f-4536-bb18-1f6e09120a8c)
+
+
 
 
 
