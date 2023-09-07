@@ -52,7 +52,7 @@ Setting up an Apache2 Server on Ubuntu using the package manager is a straightfo
 
 3. **Security:** Prioritize server security by implementing best practices, such as firewall rules and SSL/TLS encryption.
 
-4.**Performance Optimization:** Optimize Apache2's performance using configuration tweaks and caching mechanisms.
+4. **Performance Optimization:** Optimize Apache2's performance using configuration tweaks and caching mechanisms.
 
 5. **Troubleshooting:** Be prepared to troubleshoot common issues using the available resources and expertise.
 
