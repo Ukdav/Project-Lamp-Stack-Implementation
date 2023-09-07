@@ -70,6 +70,10 @@ To deploy the web application, we need to install Apache via Ubuntu package mana
 
 ![sudo apt install apache2](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/faa5ae88-3a35-422b-909d-2d85f978aa23)
 
+To verify that Apache2 is running is running as a service on our OS, you will use the following command:
+
+*$ sudo systemctl status apache2*
+
 
 
 
