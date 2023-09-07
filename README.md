@@ -58,6 +58,20 @@ Setting up an Apache2 Server on Ubuntu using the package manager is a straightfo
 
 By following these steps, you'll have a secure and efficient Apache2 web server ready to host your websites or web applications on your Ubuntu system.
 
+To deploy the web application, we need to install Apache via Ubuntu package manager apt:
+
+# Updating the packages
+
+*$ sudo apt update*
+
+*$ sudo apt install apache2*
+
+![sudo apt update](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/95dcf48b-4116-48b6-8f0b-422cfefde1da)
+
+![sudo apt install apache2](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/faa5ae88-3a35-422b-909d-2d85f978aa23)
+
+
+
 
 
 
