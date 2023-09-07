@@ -36,6 +36,32 @@ _SSh -i projectpem.pem ubuntu@16.170.148.177_
 
 ![SSH connect to instance](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/45c579f7-ef2c-4aea-9371-ca11da8cc457)
 
+successfully logged into the ec2 instance via ssh using git bash.
+
+## SETTING UP THE APACHE2 WEB SERVER VIA UBUNTU PACKAGE MANAGER
+
+Setting up an Apache2 Server via the Ubuntu Package Manager is a fundamental process for web server administration on Ubuntu-based systems. This concise summary provides an overview of the key steps involved:
+
+**Summary:**
+
+Setting up an Apache2 Server on Ubuntu using the package manager is a straightforward process. First, ensure you have the necessary prerequisites, including a Ubuntu server with sudo privileges. Then, follow these essential steps:
+
+1. **Installation:** Use the package manager (typically apt) to install Apache2, ensuring you have the latest version.
+
+2. **Basic Configuration:** Customize your server by setting up virtual hosts, modifying the default web page, and managing server files.
+
+3. **Security:** Prioritize server security by implementing best practices, such as firewall rules and SSL/TLS encryption.
+
+4.**Performance Optimization:** Optimize Apache2's performance using configuration tweaks and caching mechanisms.
+
+5. **Troubleshooting:** Be prepared to troubleshoot common issues using the available resources and expertise.
+
+By following these steps, you'll have a secure and efficient Apache2 web server ready to host your websites or web applications on your Ubuntu system.
+
+
+
+
+
 
 
 
