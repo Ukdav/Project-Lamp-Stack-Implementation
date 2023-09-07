@@ -4,7 +4,7 @@
 
 Building and deploying web applications in the cloud has become increasingly essential in today's digital landscape. Amazon Web Services (AWS) offers a robust and flexible platform for hosting web applications, and one of the most popular web stack configurations on AWS is the LAMP stack.
 
-The LAMP stack, which stands for Linux, Apache, MySQL (or MariaDB), and PHP, is a tried-and-true combination of software components that provides a powerful foundation for developing and hosting web applications. AWS, as a leading cloud service provider, offers a comprehensive set of tools and services that make it easy to set up, scale and manage LAMP stack environments.
+The LAMP stack, which stands for Linux, Apache, MySQL (or MariaDB), and PHP, is a tried-and-true combination of software components that provides a powerful foundation for developing and hosting web applications. AWS, as a leading cloud service provider, offers a comprehensive set of tools and services that make it easy to set up, scale, and manage LAMP stack environments.
 
 In this context, Linux serves as the operating system, Apache act as the web server, MySQL (or MariaDB) handles the database management, and PHP is the scripting language that facilitates dynamic web content generation. This stack is known for its stability, versatility, and open-source nature, making it an ideal choice for a wide range of web applications.
 
@@ -20,7 +20,25 @@ Whether you're a developer looking to host your web application, a system admini
 
 3. MySQL: used for creating and maintaining dynamic databases. It supports SQL and relational tables and provides a DBMS(Database Management System).
 
-4, PHP, PERL, or PYTHON: This represents programming languages that effectively combine all the elements of the LAMP stack and are used to make web applications execute.
+4. PHP, PERL, or PYTHON: This represents programming languages that effectively combine all the elements of the LAMP stack and are used to make web applications execute.
+
+## CREATION OF EC2 INSTANCE IN AWS
+
+First, we log on to AWS Cloud Services and create an EC2 Ubuntu VM instance. When creating an instance, choose keypair authentication and download the private key(*.pem) on your local computer.
+
+![ec2 instance n](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/f570ef6f-f528-49ec-8089-61e3a78f5d90)
+
+On the Git bash terminal, cd into the directory containing the downloaded private key, you can rename the file if you choose. Run the below command to log into the instance via ssh:
+
+_cd Downloads_
+
+_SSh -i projectpem.pem ubuntu@16.170.148.177_
+
+![SSH connect to instance](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/45c579f7-ef2c-4aea-9371-ca11da8cc457)
+
+
+
+
 
 
 
