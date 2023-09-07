@@ -120,6 +120,9 @@ using the *$ sudo mysql*; This will connect to the MySql server as the administr
 
 Use the *$ sudo mysql_secure_installation* command to remove insecure default settings and enable protection for the database.
 
+![sudo mysql_secure_installation](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/68c4b7a0-1d52-4efc-9cc0-6ac01cc2412a)
+
+
 
 
 
