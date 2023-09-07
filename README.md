@@ -160,13 +160,13 @@ Here we create a new directory called projectlamp inside the /var/www/ directory
 
 ![sudo mkdir](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/5c947c9e-2bf3-43d1-aaba-fb540037abd7)
 
-Then we change permissions of the project lamp directory to the current user system.
+Then we change the permissions of the project lamp directory to the current user system.
 
 *$ sudo chown -R $USER:$USER /var/www/projectlamp*
 
 ![sudo chown](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ef80ed8e-9fab-429f-a946-044fd1b84fe1)
 
-The projectlampstack directory represents the directory that will contain files related to our website as it represents a new server block on the Apache webserver. In order to spin up this server block we need to configure it by creating a .conf file.
+The projectlamp directory represents the directory that will contain files related to our website as it represents a new server block on the Apache webserver. In order to spin up this server block we need to configure it by creating a .conf file.
 
 sudo vi /etc/apache2/sites-available/projectlampstack.conf
 
@@ -185,7 +185,6 @@ Reload the apache2 server sudo systemctl reload apache2
 ![final stage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/416d0bb2-a1f0-4ac2-84f0-73c2e7d1386e)
 
 Create an index.php file in our web server block and add the following code using the Vim editor
-
 <?php
 phpinfo();
 
