@@ -184,19 +184,15 @@ Reload the apache2 server sudo systemctl reload apache2
 
 ![final stage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/416d0bb2-a1f0-4ac2-84f0-73c2e7d1386e)
 
-Create an index.php file in our web server block and add the following code using the Vim editor
-<?php
-phpinfo();
-
-Now go to your browser and open url using the public IP address and the Public DNS IP :
+Now go to your browser and open URL using the public IP address and the Public DNS IP :
 
 *http://16.170.148.177:80* 
 
+![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0bdf5649-517a-4d2b-b168-6381bc02a8d0)
+
 *ec2-16-170-148-177.eu-north-1.compute.amazonaws.com*
 
-![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0e812857-ee04-4918-905c-75c188ba5755)
-
-![dns](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/9b63afd6-ed4f-4c04-98d5-31e14d0ff8ce)
+![dns](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/24e594b2-fcd6-4288-aca3-43b85d99af2d)
 
 In conclusion, implementing a LAMP (Linux, Apache, MySQL, PHP/Perl/Python) stack is a powerful and widely adopted solution for building robust web applications and hosting dynamic websites. The combination of Linux as the operating system, Apache as the web server, MySQL as the relational database, and a choice of scripting languages like PHP, Perl, or Python provides a versatile and flexible environment for developers and administrators.
 
