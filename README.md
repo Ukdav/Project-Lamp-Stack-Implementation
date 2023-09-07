@@ -144,7 +144,7 @@ On successful installation of PHP and its modules, we can check the version to s
 
 ![php -v](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/c6ff9451-de5f-4d20-8ec0-3be930629f5f)
 
-## DEPLOYING OUR SITE ON APACHE'S VIRTUAL HOST
+## CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 
 We set up a virtual host using Apache to enable us to deploy our web content on the webserver. Apache's virtual hosting ensures that one or more websites can run on a web server via different IP addresses.
 
@@ -154,7 +154,7 @@ We set up a virtual host using Apache to enable us to deploy our web content on 
 
 Apache webserver serves a website by way of server blocks inside its /var/www/ directory, and it can support multiple of these server blocks to host other websites.
 
-Here we create a new directory called projectlampstack inside the /var/www/ directory.
+Here we create a new directory called projectlamp inside the /var/www/ directory.
 
 *$ sudo mkdir /var/www/projectlamp*
 
@@ -173,6 +173,41 @@ sudo vi /etc/apache2/sites-available/projectlampstack.conf
 The following represents the configuration needed to spin up the server block. Copy and paste into the editor.
 
 ![virtual host](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/e01ca8d8-bec6-4e04-8a11-419761dee12e)
+
+Run esc :wq  to save and terminate vi editor.
+
+Run sudo a2ensite projectlamp to activate the server block.
+
+Run sudo a2dissite 000-default to deactivate the default web server block that comes with Apache on default.
+
+Reload the apache2 server sudo systemctl reload apache2
+
+![final stage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/416d0bb2-a1f0-4ac2-84f0-73c2e7d1386e)
+
+Create an index.php file in our webserver block and add the following code using the vim editor
+
+<?php
+phpinfo();
+
+Now go to your browser and open url using the public IP address and the Public DNS IP :
+
+*http://16.170.148.177:80* *ec2-16-170-148-177.eu-north-1.compute.amazonaws.com*
+
+![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/81ac35ea-ebd1-4f9d-87fb-7d8756461e15)
+
+![dns](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/629a468f-592b-4552-8eec-ee79e2ba757b)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
