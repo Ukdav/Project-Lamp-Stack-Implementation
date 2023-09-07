@@ -1,4 +1,4 @@
-## Project-Lamp-Stack-Implementation
+## PROJECT-LAMP-STACK-IMPLEMENTATION
 
 **Introduction to Web Stack Implementation (LAMP Stack) on AWS**
 
