@@ -166,6 +166,17 @@ Then we change permissions of the project lamp directory to the current user sys
 
 ![sudo chown](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ef80ed8e-9fab-429f-a946-044fd1b84fe1)
 
+The projectlampstack directory represents the directory that will contain files related to our website as it represents a new server block on the Apache webserver. In order to spin up this server block we need to configure it by creating a .conf file.
+
+sudo vi /etc/apache2/sites-available/projectlampstack.conf
+
+The following represents the configuration needed to spin up the server block. Copy and paste into the editor.
+
+![virtual host](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/e01ca8d8-bec6-4e04-8a11-419761dee12e)
+
+
+
+
 
 
 
