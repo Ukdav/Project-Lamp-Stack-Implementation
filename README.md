@@ -195,6 +195,9 @@ Now go to your browser and open url using the public IP address and the Public D
 
 ![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0e812857-ee04-4918-905c-75c188ba5755)
 
+![dns](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/9b63afd6-ed4f-4c04-98d5-31e14d0ff8ce)
+
+
 
 
 
