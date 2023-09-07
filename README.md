@@ -34,9 +34,9 @@ _cd Downloads_
 
 _SSh -i projectpem.pem ubuntu@16.170.148.177_
 
-![SSH connect to instance](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/45c579f7-ef2c-4aea-9371-ca11da8cc457)
+![cd download and ssh -i command](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/19e0f21f-e8f3-4315-9f9e-88d8184ebe05)
 
-successfully logged into the ec2 instance via ssh using git bash.
+successfully logged into the ec2 instance via SSH using git bash.
 
 ## SETTING UP THE APACHE2 WEB SERVER VIA UBUNTU PACKAGE MANAGER
 
@@ -113,6 +113,16 @@ MySQL on an Ubuntu Server is a popular relational database management system use
 Install MySQL using the *$ sudo apt install mysql* command.
 
 ![installing mysql server](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/ef6df1f9-2a27-46a6-84f5-72d876235d1b)
+
+using the *$ sudo mysql*; This will connect to the MySql server as the administrative database user root, which is inferred by the use of sudo when running the command.
+
+![msql console status](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/845fad2e-4a4b-4f0f-aa78-724c1b4cde44)
+
+Use the *$ sudo mysql_secure_installation* command to remove insecure default settings and enable protection for the database.
+
+
+
+
 
 
 
