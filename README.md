@@ -86,9 +86,15 @@ To verify that Apache2 is running as a service on our OS, you will use the follo
 
 If it shows a green text, it means the web server has been successfully spunned and is live.
 
-## Configuring SECURITY GROUP INBOUND RULES ON EC2 INSTANCE Security 
+## Configuring SECURITY GROUP INBOUND RULES ON EC2 INSTANCE  
 
 Configuring Security Group Inbound Rules is a critical aspect of securing Amazon Elastic Compute Cloud (EC2) instances. Security Groups act as virtual firewalls that control inbound and outbound traffic to your EC2 instances.
+
+When the instance is created, we have a default TCP rule on port 22 opened which is useful for SSH connection to a terminal. In order to ensure that our webpage are being accessed on the internet, we need to open a TCP port 80 inbound rule.
+
+![inbound rules](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/e13cae9b-84fd-48cf-8870-5b1230bb9df9)
+
+
 
 
 
