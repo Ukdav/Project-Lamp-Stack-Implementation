@@ -184,18 +184,17 @@ Reload the apache2 server sudo systemctl reload apache2
 
 ![final stage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/416d0bb2-a1f0-4ac2-84f0-73c2e7d1386e)
 
-Create an index.php file in our webserver block and add the following code using the vim editor
+Create an index.php file in our web server block and add the following code using the vim editor
 
 <?php
 phpinfo();
 
 Now go to your browser and open url using the public IP address and the Public DNS IP :
 
-*http://16.170.148.177:80* *ec2-16-170-148-177.eu-north-1.compute.amazonaws.com*
+*http://16.170.148.177:80* and *ec2-16-170-148-177.eu-north-1.compute.amazonaws.com*
 
-![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/81ac35ea-ebd1-4f9d-87fb-7d8756461e15)
+![php webpage](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/0e812857-ee04-4918-905c-75c188ba5755)
 
-![dns](https://github.com/Ukdav/Project-Lamp-Stack-Implementation/assets/139593350/629a468f-592b-4552-8eec-ee79e2ba757b)
 
 
 
